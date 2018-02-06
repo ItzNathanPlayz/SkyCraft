@@ -1,0 +1,13 @@
+{
+  "name": "SkyCraft",
+  "description": "A bot Develped by SkyCraft.",
+  "version": "1.0.0",
+  "main": "SkyCraft.js",
+  "scripts": {
+    "start": "node SkyCraft.js"
+  },
+  "dependencies": {
+    "discord.js": "11.1.0",
+    "request": "2.81.0"
+  }
+}
