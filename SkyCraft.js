@@ -5,7 +5,7 @@ const bot = new Discord.Client({disableEveryone: true})
 
 client.on('ready', () => {
     console.log('I am ready!');
-    client.user.setGame('Test');
+    bot.user.setGame('Test');
 });
 
 client.on('message', message => {
