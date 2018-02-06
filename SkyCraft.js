@@ -10,7 +10,6 @@ message.channel.send("test")
           message.react("👎")
        		message.pin()
           message.delete()
-    			});
 });
 
 client.login(process.env.BOT_TOKEN);
